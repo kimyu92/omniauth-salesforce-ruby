@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'omniauth-salesforce/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'omniauth-salesforce'
+  spec.name          = 'omniauth-salesforce-ruby'
   spec.version       = OmniAuth::Salesforce::VERSION
   spec.authors       = ['Richard Vanhook', 'Alexander Simonov', 'Kim Yu Ng']
   spec.email         = ['rvanhook@salesforce.com', 'alex@simonov.me', 'kimyu.ng@outlook.com']
